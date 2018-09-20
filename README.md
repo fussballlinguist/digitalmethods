@@ -6,7 +6,7 @@ This project comes up with some Perl scripts for tasks similar to those of the [
 
 **screencast_documentary.pl** is a script to scrape the URLs of all versions of Wikipedia pages (including user pages etc.) in order to to make automatized screenshots of a defined number of URLs (say the first 50 versions or the 50 most recent ones) and to generate a video from the pictures. Thus, the script automatically generates screencast documentaries as outlined by Richard Rogers in his article [Doing Web history with the Internet Archive: screencast documentaries](https://doi.org/10.1080/24701475.2017.1307542).
 
-##Getting started
+### Getting started
 
 Before use, the following software/packages must be installed:
 
@@ -22,14 +22,14 @@ You will be asked the number of versions you want to make screenshots of and whe
 
 The script was tested on Mac OS Sierra and Safari 12.0. For other systems you might change the browser in the script (screenshot subroutine). Note that then capturing the whole page and not only the visible part may not work.
 
-## Use cases
+### Use cases
 
 Some examples you can see [here](https://github.com/fussballlinguist/digitalmethods/blob/master/screencast.gif) or [here](https://twitter.com/fussballinguist/status/1042052859536310272).
 
-## Authors
+# Authors
 
 Simon Meier-Vieracker, Berlin (http://www.fussballlinguistik.de)
 
-## License
+# License
 
 This project is licensed under the GNU General Public License v2.0
