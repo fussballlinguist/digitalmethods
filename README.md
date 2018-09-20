@@ -22,3 +22,14 @@ You will be asked the number of versions you want to make screenshots of and whe
 
 The script was tested on Mac OS Sierra and Safari 12.0. For other systems you might change the browser in the script (screenshot subroutine). Note that then capturing the whole page and not only the visible part may not work.
 
+## Use cases
+
+Some examples you can see here or [here](https://twitter.com/fussballinguist/status/1042052859536310272).
+
+## Authors
+
+Simon Meier-Vieracker, Berlin (http://www.fussballlinguistik.de)
+
+## License
+
+This project is licensed under the GNU General Public License v2.0
