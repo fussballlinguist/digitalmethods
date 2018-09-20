@@ -6,11 +6,24 @@ use List::MoreUtils qw(uniq);
 use Selenium::Remote::Driver;
 $| = 1;
 
+###################################################################################
+#                                                                                 #
+#  A script for the automatic generation of Wikipedia screencast socumentaries    #
+#  Author: Simon Meier-Vieracker, www.fussballlinguistik.de.                      #
+#  Inspired by the Digital Methods Initiative (Amsterdam)                         #
+#  Description:                                                                   #
+#  - scrapes the URLs of all versions of a Wikipedia page (incl. user pages etd.) #
+#  - makes screenshots of a defined number of versions                            #
+#  - generates a video from the pictures on request                               #
+#  Berlin, September 2018                                                         #
+#                                                                                 #
+###################################################################################
+
 #Define the wikipedia page you want to screenshot
-my $starturl = "https://bar.wikipedia.org/wiki/Deitschland";
+my $starturl = "https://de.wikipedia.org/wiki/GitHub";
 
 #Define path (a new folder will be created)
-my $path = "/Users/Simon/Desktop/Screencast/";
+my $path = "/Users/Name/Desktop/Screencast/";
 
 #Adjust parameters of the screenshots and the videos in the subroutines at the end of the script
 
@@ -51,7 +64,7 @@ while (defined $historyurl) {
 			my $url = "https://$language.wikipedia.org" . $1;
 			$url =~ s/&amp;/&/g;
 			unless ($url =~ /diff=/) {
-				unshift @urls, $url; # with 'unshift' the URLS will be sorted from oldest to newest, so that the screencast documentary will show the natural chronological development. If you prefer to see the development backwards, change to 'push' and adjust the for-loops in line 82 and 86.
+				unshift @urls, $url; # with 'unshift' the URLS will be sorted from oldest to newest, so that the screencast documentary will show the natural chronological development. If you prefer to see the development backwards, change to 'push' and adjust the for-loops in line 97 and 101.
 			}
 		}
 	}
