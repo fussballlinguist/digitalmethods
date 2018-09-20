@@ -14,13 +14,13 @@ To run the script, just define the URL of the Wikipedia Page and the target path
 
 ```perl /path/to/screencast_documentary.pl```
 
-You will be asked the number of versions you want to make screenshots of and whether you want to generate a video automatically. The video format can be adjusted in the script (video subroutine).
+You will be asked the number of versions you want to make screenshots of and whether you want to generate a video automatically. The video format (gif, mov, mp4 etc.) and can be adjusted in the script (video subroutine).
 
 The script was tested on Mac OS Sierra and Safari 12.0. For other systems you might change the browser in the script (screenshot subroutine). Note that then capturing the whole page and not only the visible part may not work.
 
 ### Use cases
 
-Some examples you can see [here](https://github.com/fussballlinguist/digitalmethods/blob/master/screencast.gif) or [here](https://twitter.com/fussballinguist/status/1042052859536310272).
+Some examples you can see [here](https://github.com/fussballlinguist/digitalmethods/blob/master/screencast.gif) or [here](https://twitter.com/fussballinguist/status/1042052859536310272). Moreover, watch out for recent publications by [Eva Gredel](http://germanistik.uni-mannheim.de/Germanistische%20Linguistik/Wissenschaftliches%20Personal/Dr.%20Eva%20Gredel/), a Mannheim based linguist interested in digital discourses on Wikipedia.
 
 # Authors
 
