@@ -24,7 +24,7 @@ The script was tested on Mac OS Sierra and Safari 12.0. For other systems you mi
 
 ## Use cases
 
-Some examples you can see here or [here](https://twitter.com/fussballinguist/status/1042052859536310272).
+Some examples you can see [here](https://github.com/fussballlinguist/digitalmethods/blob/master/screencast.gif) or [here](https://twitter.com/fussballinguist/status/1042052859536310272).
 
 ## Authors
 
