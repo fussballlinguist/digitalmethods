@@ -8,24 +8,24 @@ $| = 1;
 
 ###################################################################################
 #                                                                                 #
-#  A script for the automatic generation of Wikipedia screencast socumentaries    #
+#  A script for the automatic generation of Wikipedia screencast documentaries    #
 #  Author: Simon Meier-Vieracker, www.fussballlinguistik.de.                      #
 #  Inspired by the Digital Methods Initiative (Amsterdam)                         #
 #  Description:                                                                   #
-#  - scrapes the URLs of all versions of a Wikipedia page (incl. user pages etd.) #
+#  - scrapes the URLs of all versions of a Wikipedia page (incl. user pages etc.) #
 #  - makes screenshots of a defined number of versions                            #
 #  - generates a video from the pictures on request                               #
 #  Berlin, September 2018                                                         #
 #                                                                                 #
 ###################################################################################
 
-#Define the wikipedia page you want to screenshot
+# Define the wikipedia page you want to screenshot
 my $starturl = "https://de.wikipedia.org/wiki/GitHub";
 
-#Define path (a new folder will be created)
+# Define path (a new folder will be created)
 my $path = "/Users/Name/Desktop/Screencast/";
 
-#Adjust parameters of the screenshots and the videos in the subroutines at the end of the script
+# Adjust parameters of the screenshots and the videos in the subroutines at the end of the script
 
 ############################
 # No changes below this line
